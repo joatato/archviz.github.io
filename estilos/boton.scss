@@ -1,0 +1,26 @@
+/* estilos/main.scss */
+
+/* Agrega un estilo básico a los botones */
+.category-buttons {
+    display: flex;
+    gap: 10px;
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+  
+  /* Estilo base para todos los botones */
+  .category-buttons button {
+    padding: 10px 100px;
+    background-color: #5b6e7b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Cambia el color de fondo al pasar el mouse */
+  .category-buttons button:hover {
+    background-color: #373d42;
+  }
+ 

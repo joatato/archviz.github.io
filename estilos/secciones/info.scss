@@ -1,0 +1,45 @@
+.process-section {
+    h2{
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .steps {
+        display: flex;
+        .step {
+            box-sizing: border-box;
+            max-width: 500px;
+            margin: 2em auto;
+            margin-right: 1rem;
+            margin-left: 1rem;
+            padding: 2em;
+            background-color: #5b6e7b;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+            border-radius: 8px;
+            overflow: hidden;
+            margin-top: 1rem;
+
+            h3{
+                color: white;
+            }
+            p{
+                color: white;
+            }
+        }
+    }
+
+    .contact-info {
+        margin-top: 2rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        display: flex;
+        div {
+            h4{
+                margin-bottom: 0.5rem;
+            }
+            margin-right: 2rem;
+            margin-left: 2rem;
+            margin-top: 1rem;
+        }
+    }
+}

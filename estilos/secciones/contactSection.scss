@@ -1,0 +1,54 @@
+// Archivo: contactSection.scss
+
+.contact-section {
+    text-align: center;
+    //padding: 50px 0; // Ajusta el espacio según sea necesario
+  
+    h2 {
+      margin-bottom: 2rem;
+      font-size: 2em; // Ajusta el tamaño según sea necesario
+    }
+  
+    .contact-buttons {
+      display: flex;
+      justify-content: center;
+  
+      a {
+        display: inline-flex;
+        align-items: center;
+        margin: 0 10px; // Espaciado entre los botones, ajusta según sea necesario
+        padding: 10px 20px;
+        font-size: 1.2em; // Ajusta el tamaño según sea necesario
+        text-decoration: none;
+        color: #fff; // Color del texto
+        background-color: rgb(0,121,42); // Color de fondo del botón, ajusta según sea necesario
+        border-radius: 5px; // Ajusta según sea necesario
+        transition: background-color 0.3s ease-out;
+  
+        &:hover {
+          background-color: rgb(0, 87, 30); // Cambia el color al pasar el mouse, ajusta según sea necesario
+        }
+  
+        i {
+          margin-right: 10px; // Espaciado entre el ícono y el texto, ajusta según sea necesario
+        }
+      }
+      
+      // Estilo específico para el botón de Telegram
+      .telegram-button {
+        background-color: rgb(0,87,131); // Color de fondo del botón de Telegram, ajusta según sea necesario
+  
+        &:hover {
+          background-color: rgb(0, 66, 99); // Cambia el color al pasar el mouse, ajusta según sea necesario
+        }
+      }
+      .gmail-button {
+        background-color: rgb(131,6,6); // Color de fondo del botón de Telegram, ajusta según sea necesario
+  
+        &:hover {
+          background-color: rgb(95, 5, 5); // Cambia el color al pasar el mouse, ajusta según sea necesario
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,14 @@
+/* main.scss */
+@import 'reset';
+@import 'header';
+@import 'footer';
+
+// Secciones
+@import 'secciones/contactSection';
+@import 'secciones/portfolio';
+@import 'secciones/info';
+
+//General
+@import 'section';
+@import 'categoriaEstilos';
+@import 'boton';

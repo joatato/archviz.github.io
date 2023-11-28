@@ -1,0 +1,4 @@
+Debo hacer las bases de datos de las imagenes segun el cliente pida imagenes de tipo de trabajo.
+Por ejemplo de "Diseño de interiores", "Modelado 3D".
+
+Linkear las bases de datos al generadorImg.js

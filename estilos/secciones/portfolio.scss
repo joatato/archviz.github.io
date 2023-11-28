@@ -1,0 +1,57 @@
+/* portfolio.scss */
+
+.portfolio-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: thin; /* Para navegadores Firefox */
+    scrollbar-color: darkgray lightgray; /* Define el color de la barra y el fondo (opcional) */
+}
+
+.portfolio-item {
+    flex: 0 0 auto;
+    width: 27rem;
+    margin-right: 20px;
+    scroll-snap-align: start;
+    transition: transform 0.5s ease-out;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.portfolio-container::-webkit-scrollbar {
+    width: 12px; /* Ajusta el ancho de la barra de desplazamiento según tus preferencias */
+}
+.portfolio-container::-webkit-scrollbar-thumb {
+    background-color: #0d1321; /* Define el color del "pulgar" de la barra */
+}
+
+.portfolio-container::-webkit-scrollbar-track {
+    background-color: #5b6e7b; /* Define el color de la "pista" de la barra (opcional) */
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: 500px; /* Ajusta esta altura según tus necesidades */
+    object-fit: cover; /* Esto asegura que la imagen cubra el contenedor manteniendo las proporciones */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+.portfolio-item video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+.portfolio-item:hover img,
+.portfolio-item:hover video {
+    transform: scale(1.01);
+    opacity: 2;
+}
+
+
+
+//Animacion
